@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/todo-list-api.jar
+web: java -Dserver.port=$PORT -Dspring.profiles.active=prod -jar target/todo-list-api-SNAPSHOT.jar
