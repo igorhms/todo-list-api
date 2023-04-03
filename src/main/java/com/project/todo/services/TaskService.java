@@ -2,13 +2,11 @@ package com.project.todo.services;
 
 import com.project.todo.model.Task;
 import com.project.todo.repository.TaskRepository;
-import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-@Transactional
 public class TaskService {
     private final TaskRepository taskRepository;
 
